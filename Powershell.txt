@@ -1,3 +1,7 @@
 New-Item -Path . -Name "MyFolder" -ItemType "Directory"
 
 
+New-Item	Command to create something new (file, folder, etc.)
+-Path .	Location: the current directory
+-Name "MyFolder"	Name of the folder you want to create
+-ItemType "Directory"	This tells PowerShell to create a folder
